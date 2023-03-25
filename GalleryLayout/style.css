@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800;900&display=swap");
+
+body {
+    font-family: "Roboto Slab", serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+  height: 400px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container div {
+  margin: 10px auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto Slab", serif;
+  font-weight: 800;
+  font-size: xx-large;
+  color: darkgrey;
+}
+
+.header-text {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: medium;
+  color: grey;
+}
+
+.main-image {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-text {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  color: grey;
+}
+.bottom-text div {
+  width: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.readme-button {
+  display: flex;
+  justify-content: center;
+}
+
+.readme-button button {
+  width: 135px;
+  height: 25px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+  font-size: large;
+  border-bottom: none;
+  border-top: none;
+  border-left: 4px solid grey;
+  border-right: 4px solid grey;
+  background-color: white;
+  cursor: pointer;
+  color: grey;
+}
+
+.readme-button button:hover{
+    color: red;
+}
+
